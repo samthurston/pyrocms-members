@@ -1,0 +1,17 @@
+This is a single-use directory of contacts for pyrocms.  
+
+the included fields will probably not suit 
+many people but it is a common request I 
+get from my clients to have a list of contacts
+posted on their site that is easy to manage.  
+
+So this is a starting place that applies for most 
+and you can add fields pretty easy by simply changing 
+the following four things: 
+
+1) database table (can be done preinstall from details.php, or in the table itself)
+2) form_validation rules in admin controller's constructor (controllers/admin.php)
+3) form view (views/admin/form.php)
+4) front-end view (views/index.php)
+
+good luck, hope this saves someone some time.
