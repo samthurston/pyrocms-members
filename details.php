@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
-class Module_Eventcal extends Module {
+class Module_Members extends Module {
 
 	public $version = '0.4';
 
